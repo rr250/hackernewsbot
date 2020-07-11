@@ -18,5 +18,5 @@ public class Attachment {
     private String text;
     private String author_name;
     private String author_link;
-
+    private String thumb_url = "https://pbs.twimg.com/profile_images/469397708986269696/iUrYEOpJ.png";
 }

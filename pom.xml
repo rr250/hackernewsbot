@@ -74,20 +74,20 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
-				<!-- Exclude the Tomcat dependency -->
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-tomcat</artifactId>
-				</exclusion>
-			</exclusions>
+<!--			<exclusions>-->
+<!--				&lt;!&ndash; Exclude the Tomcat dependency &ndash;&gt;-->
+<!--				<exclusion>-->
+<!--					<groupId>org.springframework.boot</groupId>-->
+<!--					<artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--				</exclusion>-->
+<!--			</exclusions>-->
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jetty</artifactId>
-			<version>2.3.0.RELEASE</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-jetty</artifactId>-->
+<!--			<version>2.3.0.RELEASE</version>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
@@ -104,15 +104,15 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>com.google.cloud.tools</groupId>
-				<artifactId>appengine-maven-plugin</artifactId>
-				<version>2.2.0</version>
-				<configuration>
-					<projectId>hackernewsbot</projectId>
-					<version>hackernewsbot</version>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>com.google.cloud.tools</groupId>-->
+<!--				<artifactId>appengine-maven-plugin</artifactId>-->
+<!--				<version>2.2.0</version>-->
+<!--				<configuration>-->
+<!--					<projectId>hackernewsbot7</projectId>-->
+<!--					<version>hackernewsbot</version>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 </project>

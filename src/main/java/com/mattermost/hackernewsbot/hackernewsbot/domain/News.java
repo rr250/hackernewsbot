@@ -15,4 +15,6 @@ public class News {
     private long id;
     private String title;
     private String url;
+    private String description;
+    private String image;
 }

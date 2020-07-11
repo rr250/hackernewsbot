@@ -13,6 +13,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class SendPost {
     private String channel_id;
-    private String message="Top news for today. For more news visit https://news.ycombinator.com/";
+    private String thumb_url;
+    private String title;
+    private String title_url;
+
+
+    private String message="For more news visit https://news.ycombinator.com/";
     private Attachments props = new Attachments();
 }
